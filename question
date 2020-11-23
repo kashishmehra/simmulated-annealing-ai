@@ -1,0 +1,7 @@
+Q. Consider the following 2-SAT problem with 4 Boolean variables a, b, c, d:
+F=(¬a v d) ^ (c v b) ^  ( ¬c v ¬d)  ^ ( ¬d v ¬b) ^  (¬a v ¬d)
+Let the candidate solution be of the order (abcd) and the initial candidate solution be (1111).
+use sigmoid function to calculate the probability for moving from current state to next state. 
+Sample from uniform distribution to make the decision. Output all the solutions. 
+Let heuristic to evaluate each solution be number of clauses satisfied in the formula. 
+Apply Simulated Annealing (Consider T= 1000 and cooling function = T-10)
